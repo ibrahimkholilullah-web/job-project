@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Job Task Project</title>
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <h1>Ibrahim Kholil</h1>
+<body >
+    <header class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/Image//Logo.png" alt="Logo">
+            </div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services <img class="down_icon" src="/Image/down-arrow-backup-2-svgrepo-com.svg" alt=""></a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">White Level</a></li>
+            </ul>
+            <div class="buttons">
+                <button class="login-btn">Log in</button>
+                <button class="demo-btn">Book a demo</button>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+    <body>
+        <!-- banner section -->
+        <section class="banner">
+            <div class="banner-section">
+                <!-- Left Content -->
+                <div class="banner-text ">
+                    <span class="badge">⭐ All talents across the world</span>
+                    <h1>Create <span class="highlight">Short-Form Video Content</span> starting at <span class="price">$99</span>/month.</h1>
+                    <p>Tailored social media content of the highest quality, crafted for your business. Shared on your channels only upon your approval.</p>
+                    <div class="button-group">
+                        <button class="btn btn-primary">Get started</button>
+                        <button class="btn btn-outline">Book a demo</button>
+                    </div>
+                </div>
+        
+                <!-- Right Content -->
+                 <div>
+                    <div class="banner-images">
+                        <img src="/Image/banner.png" alt="Video Poster">
+                        <img src="/Image/banner.png" alt="Video Poster">
+                    </div>
+                    <div class="social-media">
+                        <p>Social channels we work with</p>
+                        <div class="social_img">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="X">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+                        <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn">
+                    </div>
+                 </div>
+                   
+                    
+               
+            </div>
+        
+            <!-- Social Media Section -->
+            
+        </section>
+    </body>
+    <script>
+        function toggleMenu() {
+            document.querySelector(".menu").classList.toggle("show");
+        }
+    </script>
+
 </body>
 </html>
