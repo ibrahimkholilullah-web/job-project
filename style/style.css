@@ -228,6 +228,70 @@ body {
     justify-content: center;
     gap:40px;
  }
+ .featured-clients {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Left Side Text */
+.clients-info {
+    flex: 1;
+    text-align: left;
+}
+
+.clients-info h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.clients-info p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Right Side - Client Logos */
+.clients-logos {
+    flex: 3;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos-slider {
+    display: flex;
+    white-space: nowrap;
+    animation: scroll 12s linear infinite;
+    gap: 40px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+/* Animation for Scrolling Logos */
+/* @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+} */
+
+.clients-logos img {
+    height: 60px;
+    display: inline-block;
+}
+
+
 /* media section */
 @media (max-width: 900px) {
     .banner-section {
@@ -242,6 +306,23 @@ body {
     .banner-images {
         justify-content: center;
         margin-top: 20px;
+    }
+    .featured-clients {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .clients-info {
+        margin-bottom: 15px;
+    }
+
+    .clients-logos {
+        width: 100%;
+    }
+
+    .logos-slider {
+        animation: scroll 12s linear infinite;
+        
     }
 }
 @media (max-width: 768px) {
@@ -299,5 +380,8 @@ body {
  }
  .social-media > p {
     font-size: 15px;
+}
+.clients-logos img {
+    height: 30px;
 }
 }
