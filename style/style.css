@@ -228,6 +228,8 @@ body {
     justify-content: center;
     gap:40px;
  }
+
+/* Freatures section  */
  .featured-clients {
     display: flex;
     align-items: center;
@@ -280,19 +282,380 @@ body {
         transform: translateX(-100%);
     }
 }
-/* Animation for Scrolling Logos */
-/* @keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
-} */
+
 
 .clients-logos img {
     height: 60px;
     display: inline-block;
 }
 
+/* Creative Services */
+.services{
+    padding: 40px 0px;
+}
+.title {
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+}
 
+.title span {
+    color: #a855f7;
+}
+
+/* Subtitle */
+.subtitle {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 24px;
+    text-align: center;
+    
+}
+
+/* Content Box */
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+/* Features Section */
+.features {
+    width: 48%;
+    text-align: left;
+}
+
+.feature-title {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.feature-title img {
+    width: 48px;
+    margin-right: 8px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+.provited_titel{
+font-size: 18px;
+font-weight: bold;
+color: black;
+padding: 2px 0px;
+}
+.features li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Pricing Section */
+.pricing {
+    width: 48%;
+
+}
+.border_icon{
+    width: 1px;
+    height: 300px;
+    background-color: black;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.option input {
+    display: none;
+}
+
+.option-content {
+    text-align: left;
+    width: 100%;
+    padding: 5px;
+}
+
+.option strong {
+    font-size: 16px;
+    color: #333;
+}
+
+.option p {
+    font-size: 12px;
+    color: #777;
+}
+
+.option:hover {
+    border-color: #a855f7;
+}
+
+.option input:checked + .option-content {
+    border: 1px solid #a855f7;
+    background: #f5e1ff;
+    border-radius: 8px;
+}
+
+/* Most popular */
+.popular {
+    border: 2px solid #a855f7;
+    position: relative;
+}
+
+.badge {
+    background: #a855f7;
+    color: white;
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 12px;
+    left: 10px;
+}
+
+/* CTA Button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-button {
+        background-color: #8338ec;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 24px;
+       
+
+}
+
+.cta-button:hover {
+    background: #8338ec;
+}
+
+/* Video Editing Service */
+.server_titel{
+    text-align: center;
+    font-size: 48px;
+}
+.highlight {
+    color: #B564F7;
+}
+
+/* Service Section */
+.service-section {
+    padding: 10px 20px ;
+
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Service Card */
+.service-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 370px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card .icon {
+    font-size: 24px;
+    color: #B564F7;
+    width: 38px;
+    
+}
+.card_top{
+    display: flex;
+}
+.service-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.service-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #555;
+    text-align: left;
+}
+/* Card Section */
+.card-body{
+    padding-top: 20px;
+}
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(378px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/* Card Styles */
+.card {
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: 0.3s;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Section Heading */
+.video-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 0px 5px;
+}
+
+.video-section .highlight {
+    color: #b564f7;
+}
+
+/* Slider Container */
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* Video Slider */
+.video-slider {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Video Card */
+.video-card {
+    position: relative;
+    padding: 10px;
+    border-radius: 12px;
+    transition: transform 0.3s;
+    text-align: center;
+    min-width: 250px;
+}
+
+.video-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Image Styling */
+.video-card img {
+    max-width: 280px;
+    border-radius: 8px;
+    height: 326px;
+    
+    
+}
+
+/* Play Button */
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 24px;
+   
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+/* Text Below Image */
+.video-card p {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Right Navigation Button */
+.next-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.next-btn:hover {
+    background: #8a41c9;
+}
+.video_titel{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.video_titel img {
+    width: 160px; /* Fixed width */
+    height: auto; /* Auto height to maintain aspect ratio */
+    max-height: 34px; /* Ensures it doesn't exceed 34px */
+    border-radius: 20px;
+}
 /* media section */
+
+@media (max-width: 1024px) {
+    .service-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 @media (max-width: 900px) {
     .banner-section {
         flex-direction: column;
@@ -324,6 +687,7 @@ body {
         animation: scroll 12s linear infinite;
         
     }
+    
 }
 @media (max-width: 768px) {
     .menu {
@@ -350,7 +714,34 @@ body {
     .hamburger {
         display: block;
     }
-    /* banner section */
+    .content-box {
+        flex-direction: column;
+    }
+    
+    .features, .pricing {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .border_icon{
+        width: 0px;
+        height: 0px;
+        background-color: black;
+        
+    }
+    .card-section {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .video-card {
+        min-width: 200px;
+    }
+    .video-card img {
+    max-width: 200px ;
+    border-radius: 8px;
+    height: 326px;
+    
+    
+}
     
 }
 @media (max-width: 480px){
@@ -383,5 +774,31 @@ body {
 }
 .clients-logos img {
     height: 30px;
+}
+.title{
+    font-size: 20px;
+}
+.subtitle{
+    font-size: 14px;
+}
+.banner-text h1{
+font-size: 20px;
+padding: 10px 0px 0px 0px;
+}
+.server_titel{
+    font-size: 20px;
+}
+.video-card {
+    min-width: 150px;
+}
+.video-card img {
+    max-width: auto;
+    
+}
+.video_titel{
+    display: block;
+    padding-top: 20px;
+    align-items: center;
+    gap: 10px;
 }
 }
