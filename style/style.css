@@ -119,22 +119,21 @@ body {
     max-width: 50%;
     padding-top: 20px;
 }
-.banner_titel {
+.product_titel{
     font-size: 48px;
 }
 .badge {
         background: #475467;
         color: white;
-        font-size: 10px;
+        font-size: 12px;
         padding: 6px 10px;
-        border-radius: 12px;
+        border-radius: 30px;
         left: 10px;
-        font-size: 8px;
   
 }
 
 .banner-text h1 {
-    font-size: 38px;
+    font-size: 48px;
     font-weight: 600;
     margin: 15px 0;
     color: #222;
@@ -142,7 +141,7 @@ body {
 
 .highlights {
   font-weight: bold;
-  background: linear-gradient(90deg, #2B034D, #B564F7, #D37EF0, #EF90FF);
+  background: linear-gradient(90deg, #2B034D, #B564F7);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -279,7 +278,7 @@ body {
     font-size: 32px;
     font-weight: bold;
     margin: 0;
-    border-right: #222 solid 1px;
+    border-right: #222 solid 2px;
 }
 .our_client{
     font-size: 20px;
@@ -398,9 +397,10 @@ padding: 2px 0px;
 
 }
 .border_icon{
-    width: 1px;
+    width: 2px;
     height: 300px;
     background-color: black;
+    border-radius: 100% 100% 100% 100% ;
 }
 
 .option {
@@ -686,6 +686,7 @@ padding: 2px 0px;
     height: 30px;
     object-fit: cover;
     border-radius: 30px;
+    border: #a855f7 2px solid;
 }
 /* Video Card */
 .video-cards {
@@ -1371,6 +1372,16 @@ h2 {
     justify-content: center;
     gap: 5px;
 }
+.banner-text h1 {
+    font-size: 28px;
+}
+.titel_short_video{
+    font-size: 28px;
+    
+}
+.titel_cline{
+    font-size: 28px;
+}
 }
 
 @media (max-width: 480px){
@@ -1522,4 +1533,21 @@ padding: 10px 0px 0px 0px;
     font-size: 20px;
     
  }
+ .menu{
+    gap: 0px;
+ }
+ .badge {
+    background: #475467;
+    color: white;
+    font-size: 8px;
+    padding: 4px 10px;
+    border-radius: 30px;
+    left: 10px;
+}
+.user-info h4 {
+    font-size: 12px;
+}
+.user-info p {
+    font-size: 10px;
+}
 }
