@@ -652,7 +652,10 @@ padding: 2px 0px;
 .video-card:hover {
     transform: translateY(-5px);
 }
-
+.brands{
+    padding: 0px 0px 100px 0px;
+  
+}
 /* Image Styling */
 .video-card > img {
     max-width: 280px;
@@ -886,6 +889,7 @@ position: relative;
  .testimonial-container {
     display: flex;
     gap: 20px;
+    padding: 10px;
 }
 .three_cards{
         display: grid;
@@ -901,6 +905,7 @@ position: relative;
     padding: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border: 1px solid #e0e0e0;
+    
 
 }
 
@@ -1416,7 +1421,7 @@ padding: 10px 0px 0px 0px;
 }
 .testimonial-container {
     display: block;
-    margin: -10px;
+   
     
 }
 .testimonial-card {
