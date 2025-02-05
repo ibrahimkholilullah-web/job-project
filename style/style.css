@@ -126,10 +126,11 @@ body {
         background: white;
         color: black;
         font-size: 10px;
-        padding: 8px;
+        padding: 6px 10px;
+        margin: 0px 0px 10px 0px;
         border-radius: 12px;
         left: 10px;
-        font-size: 10px;
+        font-size: 8px;
   
 }
 
@@ -192,7 +193,9 @@ body {
     background: #8b3edf;
     border-radius: 0px;
 }
-
+.freature_desc{
+    text-align: left;
+}
 .btn-outline {
     border: 1px solid #B564F7;
     color: #B564F7;
@@ -1464,5 +1467,16 @@ padding: 10px 0px 0px 0px;
 .footer-container{
     width: fit-content;
 }
-
+.btn-primary {
+    padding: 5px;
+    font-size: 13px;
+    width: 100px;
+   
+}
+.btn-outline{
+    padding: 5px;
+    font-size: 13px;
+    width: 100px;
+   
+}
 }
