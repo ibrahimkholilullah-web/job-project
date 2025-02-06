@@ -1262,52 +1262,50 @@ p {
     
 }
 @media (max-width: 768px) {
-    .menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 90px;
-        right: 20px;
-        background: white;
-        width: 200px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 15px;
-        border-radius: 8px;
-        border: 2px solid #a855f7 ;
-    }
-    .clients-info h2 {
-      
-        border-right: none;
-    }
-    .menu.show {
-        display: flex;
-    }
+.menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background: white;
+    width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #a855f7 ;
+}
+.clients-info h2 {
+  
+    border-right: none;
+}
+.menu.show {
+    display: flex;
+}
+.menu li {
+    margin-bottom: 10px;
+}
+.hamburger {
+    display: block;
+}
+.content-box {
+    flex-direction: column;
+}
 
-    .menu li {
-        margin-bottom: 10px;
-    }
-
-    .hamburger {
-        display: block;
-    }
-    .content-box {
-        flex-direction: column;
-    }
+.features, .pricing {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.border_icon{
+    width: 0px;
+    height: 0px;
+    background-color: black;
     
-    .features, .pricing {
-        width: 100%;
-        margin-bottom: 15px;
-    }
-    .border_icon{
-        width: 0px;
-        height: 0px;
-        background-color: black;
-        
-    }
-    .card-section {
-        grid-template-columns: 1fr;
-        padding: 20px;
-    }
+}
+.card-section {
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
     
 .button-group {
     justify-content: center;

@@ -1,3 +1,4 @@
+// vodeo slider
 let scrollAmount = 0;
 
 function slideNext() {
@@ -11,6 +12,7 @@ function slideNext() {
 
     slider.style.transform = `translateX(-${scrollAmount}px)`;
 }
+
 function slideNexts() {
     const slider = document.querySelector('.video-sliders');
     const cardWidth = document.querySelector('.video-cards').offsetWidth + 20; // Card width + margin
@@ -22,6 +24,7 @@ function slideNexts() {
 
     slider.style.transform = `translateX(-${scrollAmount}px)`;
 }
+// videos slider
 function videos() {
     const slider = document.querySelector('.videos')
     const cardWidth = document.querySelector('.video').offsetWidth + 20; // Card width + margin
@@ -33,7 +36,7 @@ function videos() {
 
     slider.style.transform = `translateX(-${scrollAmount}px)`;
 }
-
+// FAQ Quation
 document.addEventListener("DOMContentLoaded", function () {
     const faqItems = document.querySelectorAll(".faq-item");
 
