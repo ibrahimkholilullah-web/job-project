@@ -32,6 +32,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+   
 }
 
 .menu li {
@@ -47,6 +48,9 @@ body {
 
 .menu a:hover {
     color: #a855f7;
+    padding: 0px 0px 2px 0px;
+    border-bottom: 2px solid #a855f7 ;
+    
 }
 .down_icon{
     width: 10px;
@@ -125,8 +129,8 @@ body {
 .badge {
         background: #475467;
         color: white;
-        font-size: 12px;
-        padding: 6px 10px;
+        font-size: 10px;
+        padding: 4px 12px;
         border-radius: 30px;
         left: 10px;
   
@@ -527,11 +531,13 @@ padding: 2px 0px;
 }
 .card_top{
     display: flex;
+    gap: 20px;
 }
 .service-card h3 {
     font-size: 20px;
     margin: 10px 0;
     font-weight: 700;
+    text-align: left;
 }
 
 .service-card img {
@@ -539,7 +545,9 @@ padding: 2px 0px;
     border-radius: 8px;
     margin: 15px 0;
 }
-
+.card_top img {
+    width: 30px;
+}
 .service-card p {
     font-size: 16px;
     color: #555;
@@ -1265,6 +1273,7 @@ p {
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         padding: 15px;
         border-radius: 8px;
+        border: 2px solid #a855f7 ;
     }
     .clients-info h2 {
       
@@ -1382,6 +1391,9 @@ h2 {
 .titel_cline{
     font-size: 28px;
 }
+.footer-text{
+    text-align: center;
+}
 }
 
 @media (max-width: 480px){
@@ -1395,7 +1407,9 @@ h2 {
 .menu a {
    
     font-size: 12px;
+
 }
+
 .social-media{
     width: auto;
 }
@@ -1549,5 +1563,9 @@ padding: 10px 0px 0px 0px;
 }
 .user-info p {
     font-size: 10px;
+}
+.service-card h3 {
+    font-size: 17px;
+   
 }
 }
