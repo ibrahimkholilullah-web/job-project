@@ -1,5 +1,5 @@
 This project is primarily static, built using HTML and CSS, with structured page layouts.This website is fully responsive for all tab and laptop devices. The key sections include:
-
+Live URL : https://job-task-project-cm.netlify.app/
 * Banner Section – Located at the bottom of the page, featuring social media links.
 * Client Section – Showcases the companies I've worked with through an automated slider.
 * Features Section – Displays product features along with their pricing details.
